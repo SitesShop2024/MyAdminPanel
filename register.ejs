@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Регистрация нового админа</title>
+</head>
+<body>
+    <h1>Регистрация нового админа</h1>
+    <form method="POST" action="/register">
+        <label>Имя пользователя:</label>
+        <input type="text" name="username" required>
+        <br>
+        <label>Пароль:</label>
+        <input type="password" name="password" required>
+        <br>
+        <button type="submit">Зарегистрировать</button>
+    </form>
+
+    <nav>
+        <a href="/">Главная</a> | 
+        <a href="/users">Пользователи</a> | 
+        <a href="/edit">Редактирование контента</a> | 
+        <a href="/logout">Выход</a>
+    </nav>
+</body>
+</html>
